@@ -1,0 +1,1 @@
+Geometrically, the square of the unit vectors.
