@@ -20,4 +20,4 @@ $$
 \begin{bmatrix}a&b\\c&d\end{bmatrix} \begin{bmatrix}0&1\\1&0\end{bmatrix} = \begin{bmatrix}b&a\\d&c\end{bmatrix}
 $$
 
-If you are pivoting you don't need to pivot the last column
+If you are pivoting you don't need to pivot the last column.
