@@ -1,6 +1,15 @@
 Less favoured vs [[Cholesky Decomposition]]
 
 # Doolittle Algorithm
+## Intuition
+**U Matrix**
+* We calculate $U$ for each row first
+	* Start with the diagonal and move across
+	* Easy because L is usefully initialised with $1$s on the diagonal
+* We want to compute the value of $U_{ij}$ based on the current row of $A$ and previously computed elements in $L,U$.
+* We are saying $U_{ij}=A_{ij}-\text{"contributions from earlier rows"}$
+
+
 ## General Process
 1. A matrix $A \in \mathbb{R}^{n \times n}$ can be decomposed into a lower triangular matrix $L$ with $1s$ on the diagonal, and an upper triangular matrix $U$.
 2. Iterate over the rows, columns of $A$ to compute $L,u$.
@@ -10,7 +19,7 @@ Less favoured vs [[Cholesky Decomposition]]
 1. We want to decompose the matrix $A$ into the product of two matrices, $L, U$:
 $$A = \begin{bmatrix}2&1&1\\4&-6&0\\-2&7&2\end{bmatrix} = LU$$
 2. $L,U$ take the form:
-$$L = \begin{bmatrix}1&0&0\\L_{21}&1&0\\L_{31}&L_{32}&11\end{bmatrix},\quad U = \begin{bmatrix}U_{11}&U_{12}&U_{13}\\0&U_{22}&U_{23}\\0&0&U_{33}\end{bmatrix}$$
+$$L = \begin{bmatrix}1&0&0\\L_{21}&1&0\\L_{31}&L_{32}&1\end{bmatrix},\quad U = \begin{bmatrix}U_{11}&U_{12}&U_{13}\\0&U_{22}&U_{23}\\0&0&U_{33}\end{bmatrix}$$
 3. To compute $A_{11}$: 
 	* $A_{11} = L_{11}U_{11}=1 \times U_{11} = U_{11}$
 	* $U_{11} = 2$

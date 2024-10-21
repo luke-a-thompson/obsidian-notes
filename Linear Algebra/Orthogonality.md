@@ -15,8 +15,9 @@ The columns of an orthogonal matrix represent an **orthonormal** basis for the s
 2. Preserve the [[Inner Product]]: $(Ai) \cdot (Av)=u \cdot v$
 3. Preserve vector norms: $\|Au\|=\|u\|$
 	* $\sqrt{(Qu)^{T}Qu} = \sqrt{u^{T}Q^{T}Qu} = \sqrt{u^{T}u}$
-4. Preserve angles between vectors - All 2D [[Rotation Matrices]] are orthogonal
-5. $A^{T}= A^{-1}$
+	* I.e., they don't stretch vectors
+1. Preserve angles between vectors - All 2D [[Rotation Matrices]] are orthogonal
+2. $A^{T}= A^{-1}$
 	* This is true of any matrix that satisfies $A^{T}A=I$
-6. $A^{T}A=I$ because it's columns are rows are orthonormal vectors
-7. $Det(A) = \pm 1$
+3. $A^{T}A=I$ because it's columns are rows are orthonormal vectors
+4. $Det(A) = \pm 1$

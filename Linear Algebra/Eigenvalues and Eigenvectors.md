@@ -1,3 +1,6 @@
+## Stability
+
+## Eigendecomposition
 A matrix $A^{n \times n}$ can be factorised as:
 $$A=Q \Lambda Q^{-1}$$
 Where $Q$ is a $n \times n$ matrix of eigenvectors, and $\Lambda$ is the diagonal matrix of eigenvalues.
