@@ -1,3 +1,16 @@
+## Interpreting the Eigendecomposition of the Graph Laplacian
+The eigendecomposition of the graph Laplacian for a graph $G=(V,E)$ is:
+$$
+L\mathbf{v}_{i}= \lambda_{i}\mathbf{v}_i
+$$Where $\lambda_{i}$ is the $i$-th eigenvalue of $L$ and $\mathbf{v}_i$ is the corresponding eigenvector. $\mathbf{v}_{i}$ is of dimension $|V|$.
+
+Each component $\mathbf{v}_{i}[j]$ of $\mathbf{v}_{i}$ corresponds to node $j$, so the $j$-th entry of $\mathbf{v}_{i}$ tells the value of $j$ in the embedding associated with $\lambda_{i}$. **This is the coordinate of the node in the spectral embedding.** 
+
+**Spectral Clustering**
+* Construct the *spectral embedding* $U$ - Take the first $k$ eigenvectors (corresponding to the smallest non-zero $\lambda$)
+	* $U = [\mathbf{v}_{1}, \mathbf{v}_{2}, \dots, \mathbf{v}_{k}]$, $U \in \mathbb{R}^{|N|\times k}$
+* Treat each row of $U$ as a feature vector of the corresponding node, apply clustering algorithms
+
 ## Unnormalised Graph Laplacian
 Captures the difference between local connectivity $A$ and node's degree $D$.
 $$
