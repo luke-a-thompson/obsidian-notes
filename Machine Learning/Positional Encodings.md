@@ -1,5 +1,3 @@
-
-
 ## Connection between Graph Laplacian PE and Conventional PE
 Consider the input sequence to a LLM as a *path graph* $G$ of $N$ tokens where each token is a node, and consecutive tokens are connected by edges.
 
