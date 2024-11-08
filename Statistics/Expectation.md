@@ -14,3 +14,18 @@ $$Where:
 * $f(x)$ is the PDF
 * $dx$ indicates we are integrating w.r.t $x$, summing over all $x$ values.
 Hence, $x\cdot f(x)$ means we multiply each possible value by its probability density.
+
+## Online & Offline Expectation
+**Offline**
+Known distribution, exact expectation:
+$$
+\begin{align}
+\text{Discrete: }\mathbb{E}[X] &= \sum\limits_xx\cdot P(X=x)\\
+\text{Continuous: }\mathbb{E}[X]& = \int_{-\infty}^{\infty}x\cdot f(x)dx
+\end{align}
+$$
+**Online**
+Sequential observations, continually updated. Running averages are typical:
+$$
+\hat{\mu}*{n}=\frac{1}{n}\sum\limits*{i=1}^{n}x_i
+$$

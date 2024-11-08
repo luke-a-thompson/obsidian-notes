@@ -1,0 +1,1 @@
+The *exponential map* of a point $p$ on a Riemannian manifold $M$ is an $n$-dimensional vector space formed of the span of the partial derivatives viewed as tangent vectors at $p$.

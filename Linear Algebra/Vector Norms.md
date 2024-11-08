@@ -1,5 +1,5 @@
 ## L1 & L2 Norms
-### L1 Norm (1-norm, Manhattan norm, taxicab norm):
+### L1 Norm (1-norm, Manhattan Norm, Taxicab norm):
 $$
 \begin{align}
 \|x\|_1 &= \sum_{i=1}^n\limits|x_{i|}\\
@@ -29,7 +29,6 @@ $$
 v\cdot(-v) = (4)(-4)+(3)(-3) &= -25
 \end{align}
 $$
-
 
 ### Orthonormal Vectors
 If two vectors $u,\ v$ are normalised ($\|u\| = 1,\ \|v\| = 1$) and orthogonal ($u\cdot v=0$,) they are orthonormal.

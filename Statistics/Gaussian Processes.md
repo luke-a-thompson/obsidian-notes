@@ -1,7 +1,7 @@
 ## Kernels
 **What they do in GPs**
 1. Relating inputs & outputs
-	* The [[Kernel]] function $k(x,x')$ measures the similarity between two inputs $x, x'$.
+	* The [[Kernels|kernel]] function $k(x,x')$ measures the similarity between two inputs $x, x'$.
 	* If $x, x'$ are "close" according to the kernel, their corresponding outputs $f(x), f(x')$ should be strongly correlated. Hence, their $y$ values should be similar.
 2. Smoothness, correlation 
 	* **Small input changes result in small output changes**

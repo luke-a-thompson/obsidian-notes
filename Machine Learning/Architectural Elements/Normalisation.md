@@ -1,4 +1,6 @@
-Leads to more stable weights, less likely to require large updates by significant changes to previous layers. May reduce condition number of the weight matrices?
+Leads to more stable weights, less likely to require large updates by significant changes to previous layers. 
+
+May reduce condition number of the weight matrices?
 
 ## LayerNorm
 Normalises each row of the weight matrix $X$ to be $X \sim N(0,1)$ via the **general formula for converting a gaussian to a 0 mean 1 variance form**:
