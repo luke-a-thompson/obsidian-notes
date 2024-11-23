@@ -1,0 +1,4 @@
+## $L_2$ Space
+A function belongs to the space of square-integrable functions $L_2([a, b))$ over the interval $[a, b)$ if: $$ \int_{a}^b |f(x)|^2 \, dx < \infty. $$This condition ensures that the function has a well-defined energy or norm over the interval, making it suitable for representation in terms of an orthogonal basis (e.g., [[Fourier series]]). 
+## $\ell_2$ Space
+A sequence belongs to the space of square-summable sequences $\ell_2$ if: $$ \sum_{n=1}^\infty |x_n|^2 < \infty. $$This guarantees that the sequence has a finite norm and can similarly be expressed in terms of an orthogonal basis in discrete settings.`

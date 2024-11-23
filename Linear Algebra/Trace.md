@@ -1,4 +1,4 @@
-The sum of the diagonal of a matrix. For example:
+The *trace* of a matrix is the sum of its diagonal elements. For example:
 $$
 \text{tr} \left( \begin{bmatrix} 4 & 1 \\ 2 & 5 \end{bmatrix} \right) = 9
 $$

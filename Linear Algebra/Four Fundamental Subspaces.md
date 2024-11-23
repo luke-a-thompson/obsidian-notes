@@ -6,8 +6,15 @@ $$
 Col(A) = \{Ax:x \in \mathbb{R}^{n} \}
 $$
 ### Null Space / Kernel
-The null space of $A$ denoted $Null(A)$  is the set of all vectors $x \in \mathbb{R}^{n}$ such that $Ax=0$. The Dimension of the null space is the *nullity* of $A$.
 
+^ec82a0
+
+The null space of $A$ denoted $\text{Null}(A)$ is the set of all vectors $x \in \mathbb{R}^{n}$ such that $Ax=0$. The dimension of the null space is the *nullity* of $A$.
+
+The *rank-nullity theorem* states that for a matrix $A \in \mathbb{R}^{m\times n}$:
+$$
+\text{rank}(A)-\text{nullity}(A)=n
+$$
 ### Row Space / Coimage
 The row space of $A$ denoted $Row(A)$ is the subspace of $\mathbb{R}^{n}$ spanned by the rows of $A$ that contains all possible linear combinations of the rows of $A$.
 

@@ -7,7 +7,7 @@ $$
 \nabla^{2}f=0
 $$
 
-When the right hand side is specified as a function $h(x,y,z)$, we have Poisson's equation:
+When the right hand side is specified as a function $h(x,y,z)$, we have Poisson's equation: ^a601c7
 $$
 \nabla f=h
 $$

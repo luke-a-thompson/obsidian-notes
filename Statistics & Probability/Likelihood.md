@@ -1,4 +1,4 @@
-## Why log the likelihood?
+## Why Log the Likelihood?
 * Likelihood is the sum of probabilities > can become small when many variables involved - Less likely with log
 * Log product of probabilities becomes sum, easier to compute: $\log (\prod\limits_{i=1}^{n} p(x_i|\theta)) = \sum\limits_{i=1}^{n} \log p(x_{i}|\theta)$ 
 	* Given independent observations $x_{1}, x_{2}, \dots x_{n}$ , the likelihood is a product: $p(x_{1}, x_{2}\dots x_{n}|\theta) = \prod\limits_{i=1}^{n} p(x_{i}|\theta)$

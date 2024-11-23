@@ -1,4 +1,4 @@
-The Kolmogorov-Smirnov (KS) test is a continuous analogue of the [[Chi-Square Test]]. It compares two distributions.
+The *Kolmogorov-Smirnov* (*KS*) test is a continuous analogue of the [[Chi-Square Test]]. It compares two distributions.
 
 ### Qualities
 * Non-parametric - No assumption of normality

@@ -1,6 +1,6 @@
 A matrix $A$ is *singular* or *degenerate* if it does not have a [[Matrix Inverse]]. **It indicates that the system of linear equations the matrix represents does not have a solution or has infinitely many.**
 
-### Qualities
+### Properties
 1. $0$ determinant
 2. No [[Matrix Inverse]]
 3. Linearly dependent rows or columns

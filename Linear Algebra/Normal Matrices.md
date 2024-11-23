@@ -1,4 +1,4 @@
-[[Normal Matrices|Normal]]: A matrix $U$ that [[commutes]] with it's own [[Hermitian Matrices & Tranpose]]:
+[[Normal Matrices|Normal]]: A matrix $U$ that [[commutes]] with it's own [[Hermitian Matrices & Transpose]]:
 $$U^{*}U=UU^{*}$$
 
 ### Qualities

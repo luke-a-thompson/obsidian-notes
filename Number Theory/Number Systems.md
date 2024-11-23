@@ -50,6 +50,8 @@ Closed under:
 
 Properties:
 * Countable: $\mathbb{N} \rightarrow \mathbb{Q}$
+* Not complete: The [[Cauchy Sequence]] may converge to a limit $L \not\in \mathbb{Q}$
+	* E.g., The sequence ${x_{n}=1,1.4,1.41,1.414}$ (approximations of $\sqrt{ 2 }$) is a [[Cauchy Sequence]], but does not converge to a $\mathbb{Q}$
 
 ## Real Numbers $\mathbb{R}$
 

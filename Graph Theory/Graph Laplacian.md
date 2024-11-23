@@ -35,7 +35,23 @@ Where $D^{-1}A$ are the *transition probabilities* of moving from node $i$ to no
 * Reduces bias introduced by high-$\delta$ nodes
 * The spectral gap $\lambda_{1}- \lambda_{0} = \lambda_{1}$ as $\lambda_{1}=0$ for connected graphs defines algebraic connectivity
 	* Larger $\lambda_{1}$ denotes a more connected graph, harder to separate into communities; small $\lambda_{1}$ suggests clustering and easy partitioning with few cuts
-	* Larger $\lambda_1$ suggests good *expansion properties*. Expander graphs remain connected even with edge removal
+	* Larger $\lambda_1$ suggests good *expansion properties*. [[Expander graphs]] remain connected even with edge removal
+
+## Graph Frequencies
+The *frequencies* of a graph are the [[Eigenvectors & Eigenvalues|eigenvalues]] $\lambda_{0} \leq \lambda_{1} \leq \dots \leq \lambda_{n-1}$ of the graph Laplacian $L$. They provide a spectral decomposition describing how functions vary across the graph structure.
+
+**Measuring Frequency Components of a Node**
+The *spectral coefficient* of a function $f$ (e.g., node feature vectors) is computed as the dot product between $f$ and the $i$-th eigenvector of $L$:
+$$
+f_{i}=\langle f, u_{i} \rangle
+$$Where:
+* $f_{i}$ is the spectral coefficient of the function $f$
+	* It is the contribution of the $i$-th graph frequency $\lambda_{i}$ to $f$
+	* A large $f_{i}$ would indicate a significant component of the graph frequency $\lambda_{i}$
+* $u_{i}$ is the $i$-th eigenvector of the graph Laplacian $L$
+
+
+Smaller $\lambda$ correspond to low frequencies which vary slowly across the graph, while larger $\lambda$ correspond to rapidly varying high frequencies.
 
 ## Cheeger Inequality
 Relates $\lambda_{1}$ to the *conductance* or bottleneckness of a graph.

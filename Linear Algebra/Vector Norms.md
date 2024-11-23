@@ -8,6 +8,9 @@ $$
 The absolute sum of differences; equal weights to all components.
 
 ### L2 Norm (2-norm, Euclidian norm):
+
+^dbb1fb
+
 $$
 \begin{align}
 \|u\|_{2} &= \sqrt{\sum_{i=1}^n\limits|x_{i|^2}}\\

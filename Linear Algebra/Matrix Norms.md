@@ -1,5 +1,6 @@
-In the following notation, min is because the number of singular values is equal to the smaller of $m$ and $n$.
+*Matrix norms* are a generalisation of [[Vector Norms]] to matrices and are generally denoted $S_{\text{norm}}$ akin to how vector norms are notated $\ell_{\text{norm}}$.
 
+In the following notation, min is because the number of singular values is equal to the smaller of $m$ and $n$.
 ## Nuclear Norm
 
 ^ca2b21

@@ -52,7 +52,7 @@ $\lambda$ of $A^{T}A$ or $AA^{T}$ are the squared singular values $\sigma^{2}$ o
 * $\sigma$ describe the action of $A$ on all vectors, $\lambda$ only describe the action of $A$ on eigenvectors.
 * $\sigma$ are always $>0$, $\lambda$ may be negative or complex.
 * $\sigma$ apply to any matrix, $\lambda$ are only defined for square matrices.
-* $\sigma$ are derived from $A^{T}A$ (always [[Positive Definiteness|positive semi-definite]], $\lambda$ are derived from $A$ directly.
+* $\sigma$ are derived from $A^{T}A$ (always [[Positive Definite Matrices|positive semi-definite]], $\lambda$ are derived from $A$ directly.
 
 
 ## Stability

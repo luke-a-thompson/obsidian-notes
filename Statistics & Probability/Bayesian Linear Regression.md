@@ -1,4 +1,4 @@
-Similar to [[linear regression]], but we treat model weights as random variables, and quantify model uncertainty in the weights via probability distributions.
+Similar to [[Linear Regression]], but we treat model weights as random variables, and quantify model uncertainty in the weights via probability distributions.
 
 **Key difference vs linear regression:**
 * Linear regression considers a single deterministic function $f(x) = w^{T}\phi(x)$ mapping $x$ to $y$.

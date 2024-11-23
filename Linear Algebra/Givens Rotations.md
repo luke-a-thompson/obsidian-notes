@@ -1,4 +1,4 @@
-A 2D rotation in the plane which zeroes specific elements of a matrix or vector. $G(i, j, \theta)$ is an identity matrix with a $2\times2$ rotation matrix in the coordinates $(i, j)$.
+*Givens rotations* are 2D rotations in the plane which zero specific elements of a matrix or vector. $G(i, j, \theta)$ is an identity matrix with a $2\times2$ rotation matrix in the coordinates $(i, j)$.
 
 ### Process:
 Suppose we have a vector or matrix $A = \begin{bmatrix}a\\b\end{bmatrix}$ and we want to zero the second element, $b$.
@@ -45,13 +45,13 @@ G \cdot \mathbf{x} &= \begin{bmatrix} 0.8 & 0.6 \\ -0.6 & 0.8 \end{bmatrix} \beg
 \end{align}
 $$
 
-### Use in the [[QR Decomposition]]
+## Use in the [[QR Decomposition]]
 ### Forming the $Q$ matrix
 
 1. Each Givens rotation $G_{i}$ is orthogonal. Hence, $G_{i}^{T}=G_{i}^{-1}$
-	* The product of orthogonal matrices is also orthogonal*
+	* The product of orthogonal matrices is also orthogonal
 ### Forming the $R$ matrix:
-1. Iteratively apply givens rotations to zero out elements below the diagonal.
+1. Iteratively apply Givens rotations to zero out elements below the diagonal.
 $$
 R = \begin{bmatrix}
 r11&r12&r13&r14\\
